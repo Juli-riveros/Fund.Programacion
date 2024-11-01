@@ -3,13 +3,6 @@ import streamlit as st
 # Título del proyecto
 st.title("Cálculo de pagos mensuales y total después de 20 meses")
 
-# Explicación del ejercicio
-st.write("""
-Una persona adquirió un producto a pagar en 20 meses. 
-El primer mes pagó S/10, el segundo S/20, el tercero S/40, y así sucesivamente.
-Este programa calculará cuánto debe pagar mensualmente y el total después de 20 meses.
-""")
-
 # Variables iniciales
 primer_pago = 10
 numero_meses = 20
