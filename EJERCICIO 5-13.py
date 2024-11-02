@@ -18,3 +18,4 @@ for mes, pago in enumerate(pagos_mensuales, start=1):
 
 st.subheader("Total pagado después de 20 meses:")
 st.write(f"S/{total_pagado}")
+
