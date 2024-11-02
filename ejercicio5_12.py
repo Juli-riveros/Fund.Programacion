@@ -16,7 +16,7 @@ notas = []
 
 # Solicitar al usuario ingresar las notas
 for i in range(num_notas):
-    nota = st.number_input(f"Ingrese la nota {i + 1}:", min_value=0, max_value=20, step=0.1)
+    nota = st.number_input(f"Ingrese la nota {i + 1}:", min_value=0, max_value=20, step=1)
     notas.append(nota)
 
 # Calculo de aprobados, desaprobados y promedio
