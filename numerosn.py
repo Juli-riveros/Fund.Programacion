@@ -21,3 +21,4 @@ if N:
     st.write(f"La suma de la serie hasta (N^N) con N = {N} es: {suma}")
 else:
     st.write("Por favor, ingrese un valor para N.")
+ 
